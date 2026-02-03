@@ -25,7 +25,7 @@ jobs:
       - run: npm install
 
       - name: Ejecutar tests
-        run: npx jest --runInBand --coverage
+        run: npm test
 
         env:
           MONGO_URI: mongodb://localhost:27017/testdb

@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "test": "jest --runInBand --coverage"
+    "test": "node ./node_modules/jest/bin/jest.js --runInBand --coverage"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
