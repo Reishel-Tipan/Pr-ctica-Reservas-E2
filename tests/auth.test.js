@@ -1,5 +1,6 @@
 const request = require('supertest');
 const app = require('../src/app');
+const mongoose = require('mongoose');
 
 describe('Auth API', () => {
   const user = {
@@ -23,5 +24,10 @@ describe('Auth API', () => {
       .send(user);
 
     expect(res.body.token).toBeDefined();
+  });
+
+  // 🔹 Cerrar conexión al terminar pruebas
+  afterAll(async () => {
+    await mongoose.connection.close();
   });
 });
