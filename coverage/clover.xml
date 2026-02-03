@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1770081478408" clover="3.2.0">
-  <project timestamp="1770081478408" name="All files">
-    <metrics statements="68" coveredstatements="53" conditionals="8" coveredconditionals="4" methods="6" coveredmethods="3" elements="82" coveredelements="60" complexity="0" loc="68" ncloc="68" packages="5" files="8" classes="8"/>
+<coverage generated="1770122659635" clover="3.2.0">
+  <project timestamp="1770122659635" name="All files">
+    <metrics statements="72" coveredstatements="55" conditionals="8" coveredconditionals="4" methods="8" coveredmethods="3" elements="88" coveredelements="62" complexity="0" loc="72" ncloc="72" packages="5" files="8" classes="8"/>
     <package name="src">
-      <metrics statements="11" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
       <file name="app.js" path="C:\Users\Reishel\Documents\U OCT25-MAR26\PRUEBAS\parcial3\prueba3\EvaluacionPractica1-reservas\src\app.js">
-        <metrics statements="11" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
@@ -17,6 +17,8 @@
         <line num="20" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.controllers">
@@ -89,7 +91,7 @@
       </file>
     </package>
     <package name="src.routes">
-      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="14" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="auth.js" path="C:\Users\Reishel\Documents\U OCT25-MAR26\PRUEBAS\parcial3\prueba3\EvaluacionPractica1-reservas\src\routes\auth.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
@@ -100,13 +102,15 @@
         <line num="11" count="1" type="stmt"/>
       </file>
       <file name="reserva.js" path="C:\Users\Reishel\Documents\U OCT25-MAR26\PRUEBAS\parcial3\prueba3\EvaluacionPractica1-reservas\src\routes\reserva.js">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
       </file>
     </package>
   </project>
