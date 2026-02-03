@@ -25,7 +25,8 @@ jobs:
       - run: npm install
 
       - name: Ejecutar tests
-        run: npm test
+        run: npx jest --runInBand --coverage
+
         env:
           MONGO_URI: mongodb://localhost:27017/testdb
           JWT_SECRET: secreto123
